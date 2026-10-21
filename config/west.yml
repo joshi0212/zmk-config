@@ -5,7 +5,7 @@ manifest:
   projects:
     - name: zmk
       remote: zmkfirmware
-      revision: v0.3.2   # <--- HIER 'main' durch einen Release-Tag ersetzen
+      revision: main   # <--- HIER 'main' durch einen Release-Tag ersetzen
       import: app/west.yml
   self:
     path: config
